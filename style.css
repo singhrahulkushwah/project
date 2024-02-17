@@ -196,4 +196,178 @@ i.fa.fa-star-half {
 
 
 
+/* about */
+
+
+
+.about-page {
+  width: 100%;
+  padding: 25px 0;
+  padding-bottom: 80px;
+}
+
+.about {
+  width: 100%;
+  display: flex;
+}
+
+.about-left {
+  width: 60%;
+  display: flex;
+}
+
+.about-left-full {
+  width: 100%;
+
+}
+
+
+
+span.heading {
+  font-size: 24px;
+  color: #003c84;
+  font-weight: 600;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 35px;
+}
+
+span.heading:before {
+  position: absolute;
+  content: "";
+  width: 51%;
+  height: 3px;
+  background: #e35f21;
+  bottom: -4px;
+  left: 0;
+}
+
+span.heading::after {
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 3px;
+  background: #22356c;
+  bottom: -4px;
+  left: auto;
+  right: 0;
+}
+
+.about-left p {
+  margin-bottom: 20px;
+  line-height: 25px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.about-icon {
+  padding-right: 0;
+}
+
+.about-check {
+  margin-bottom: 8px;
+}
+
+.about-check i {
+  font-size: 13px;
+  position: relative;
+  width: 23px;
+}
+
+.about-check .fa-check:before {
+  content: "\f00c";
+  border: 1px solid;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 19px;
+  top: -15px;
+}
+
+.about-right {
+  width: 40%;
+  padding-left: 100px;
+  display: flex;
+}
+
+.about-full-right {
+  width: 100%;
+}
+
+.about-right-full {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background: #e3eefb;
+}
+
+.about-right-full h2 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #032d60;
+}
+
+.highest {
+  padding-right: 0;
+}
+
+.highest-keys {
+  width: 100%;
+  letter-spacing: 0;
+  margin-bottom: 3px;
+  color: #484848;
+}
+
+.highest-keys i {
+  font-size: 13px;
+  width: 20px;
+}
+
+.about-right-full-bottom {
+  box-shadow: 0 0 10px -6px #000;
+  background: #fff;
+  transition: 0.6s;
+}
+
+.about-right-full-bottom:hover {
+  box-shadow: 0 0 15px -3px #e35f21;
+}
+
+.about-right-full-bottom h2 {
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.hightest-question {
+  padding-left: 15px;
+}
+
+.hightest-question ol li {
+  list-style: auto;
+  margin-top: 6px;
+}
+
+.hightest-question ol li a {
+  color: #5200ee;
+}
+
+i.fa.fa-whatsapp {
+  color: #30ff00;
+}
+
+.hightest-question ol li a i {
+  font-size: 17px;
+  width: 22px;
+}
+
+i.fa.fa-facebook-official {
+  color: #0000db;
+}
+
 
